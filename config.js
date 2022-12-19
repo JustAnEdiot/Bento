@@ -12,7 +12,7 @@ const CONFIG = {
 
   // General
   name: 'dumbass',
-  imageBackground: false,
+  imageBackground: true,
   openInNewTab: true,
   twelveHourFormat: false,
   title: 'Bento',
@@ -28,7 +28,7 @@ const CONFIG = {
 
 	// Weather
 	weatherKey: '69ad1227c8cbfbe1597b277b0e874998', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherIcons: 'White', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
@@ -65,30 +65,30 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.proton.me/',
 		},
 		{
 			id: '3',
 			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			icon: 'youtube',
+			link: 'https://piped.video',
 		},
 		{
 			id: '4',
 			name: 'Calendar',
 			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			link: 'https://calendar.proton.me',
 		},
 		{
 			id: '5',
 			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			icon: 'bot',
+			link: 'https://r.nf',
 		},
 		{
 			id: '6',
 			name: 'Odysee',
-			icon: 'youtube',
+			icon: 'film',
 			link: 'https://odysee.com/',
 		},
 	],
@@ -139,24 +139,24 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'library',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Lofi Girl',
+					link: 'https://piped.video/watch?v=jfKfPfyJRdk',
 				},
 				{
 					name: 'Classic',
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 				{
-					name: 'Oldies',
+					name: '',
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Flashcards',
+					link: 'https://quizlet.com/412380537/flashcards',
 				},
 			],
 		},

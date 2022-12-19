@@ -10,8 +10,27 @@
 //  ┘ ┴ ┴┴└─┴┴ ┴└─┘┴─┘└─┘└─┘ 
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); /* Font Import */
-@import url(catppuccin_colours.css);
+/* Fonts :> */
+@font-face {
+  font-family: 'Lora';
+  src: url('https://fonts.googleapis.com/css2?family=Lora:wght@300;400;700&display=swap');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Noto Sans Mono';
+  src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400;700&display=swap');
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Lets try without 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+*/
+
+ 
 
 :root {
 
@@ -22,40 +41,38 @@
   --icon: 3vh; /* Icon Size */
 
 	/* Light Colors  */
-	--background: var(--latte-base); /* Background color */
-	--accent: var(--latte-surface0); /* Hover color */
-	--cards: var(--latte-mantle); /* Cards color */
 
-	/* Fonts Color */
-	--fg: var(--latte-text); /* Foreground color */
-	--sfg: var(--latte-rosewater); /* Secondary Foreground color */
+  --background: #faf4ed; /* Background color */
+  --accent: #d7827e; /* Hover color */
+  --cards: #fffaf3; /* Cards color */
 
-	/* Image background  */
-	--imgcol: linear-gradient(
-		hsla(var(--latte-base-h) calc(var(--latte-base-s) * 1%) calc((var(--latte-base-l) + 0) * 1%) / 70%),
-		hsla(var(--latte-base-h) calc(var(--latte-base-s) * 1%) calc((var(--latte-base-l) + 0) * 1%) / 90%)
-	);
+  /* Fonts Color */
+  --fg: #575279; /* Foreground color */
+  --sfg: #797593; /* Sceondary Foreground color */
 
+  /* Image background  */
+  --imgcol: linear-gradient(
+    #faf4edc7,
+    #faf4edc7
+  ); /* Filter color */
 }
 
-
 .darktheme {
+  /* Dark Colors  */
+  
+  --background: #232136; /* Background color */
+  --accent: #ea9a97; /* Hover color */
+  --cards: #2a273f; /* Cards color */
 
-	/* Dark Colors  */
-	--background: var(--mocha-base); /* Background color */
-	--accent: var(--mocha-surface0); /* Hover color */
-	--cards: var(--mocha-mantle); /* Cards color */
+  /* Fonts Color */
+  --fg: #e0def4; /* Foreground color */
+  --sfg: #908caa; /* Secondary Foreground color */
 
-	/* Fonts Color */
-	--fg: var(--mocha-text); /* Foreground color */
-	--sfg: var(--mocha-rosewater); /* Secondary Foreground color */
-
-	/* Image background  */
-	--imgcol: linear-gradient(
-		hsla(var(--mocha-base-h) calc(var(--mocha-base-s) * 1%) calc((var(--mocha-base-l) + 0) * 1%) / 70%),
-		hsla(var(--mocha-base-h) calc(var(--mocha-base-s) * 1%) calc((var(--mocha-base-l) + 0) * 1%) / 90%)
-	);
-
+  /* Image background  */
+  --imgcol: linear-gradient(
+    #232136c7,
+    #232136c7
+  ); /* Filter color */
 }
 
 /* 
@@ -68,7 +85,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lora';
   transition: 0.2s ease-in-out;
 }
 

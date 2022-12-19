@@ -1,4 +1,4 @@
-//  ┌┬┐┬ ┬┌─┐┌┬┐┌─┐
+// ┌┬┐┬ ┬┌─┐┌┬┐┌─┐
 //  │ ├─┤├┤ │││├┤
 //  ┴ ┴ ┴└─┘┴ ┴└─┘
 // Set theme based on Configurations and Preferences
