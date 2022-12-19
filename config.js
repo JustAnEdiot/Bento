@@ -28,7 +28,7 @@ const CONFIG = {
 
 	// Weather
 	weatherKey: '69ad1227c8cbfbe1597b277b0e874998', // Write here your API Key
-	weatherIcons: 'White', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherIcons: 'RosePine', // 'Onedark', 'Nord', 'Dark', 'White', 'RosePine'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
@@ -57,9 +57,9 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
+			name: 'Proton Drive',
 			icon: 'github',
-			link: 'https://github.com/',
+			link: 'https://drive.proton.me/',
 		},
 		{
 			id: '2',
@@ -75,21 +75,21 @@ const CONFIG = {
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.proton.me',
-		},
-		{
-			id: '5',
 			name: 'Reddit',
 			icon: 'bot',
 			link: 'https://r.nf',
 		},
 		{
+			id: '5',
+			name: 'Calendar',
+			icon: 'calendar',
+			link: 'https://calendar.proton.me',
+		},
+		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'film',
-			link: 'https://odysee.com/',
+			name: 'Github',
+			icon: 'github',
+			link: 'https://github.com/',
 		},
 	],
 
@@ -147,16 +147,16 @@ const CONFIG = {
 					link: 'https://piped.video/watch?v=jfKfPfyJRdk',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Whoogle',
+					link: 'https://www.whoogle.click/',
 				},
 				{
-					name: '',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Silly Website',
+					link: 'https://justanediot.github.io',
 				},
 				{
-					name: 'Flashcards',
-					link: 'https://quizlet.com/412380537/flashcards',
+					name: 'Rosé Pine',
+					link: 'https://rosepinetheme.com/',
 				},
 			],
 		},
@@ -165,20 +165,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Lofi Girl',
+					link: 'https://piped.video/watch?v=jfKfPfyJRdk',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Repos',
+					link: 'https://github.com/justanediot',
 				},
 				{
 					name: 'Trello',
 					link: 'https://www.trello.com',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Teams',
+					link: 'https://teams.microsoft.com/go#',
 				},
 			],
 		},
