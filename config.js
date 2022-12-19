@@ -58,7 +58,7 @@ const CONFIG = {
 		{
 			id: '1',
 			name: 'Proton Drive',
-			icon: 'github',
+			icon: 'folder',
 			link: 'https://drive.proton.me/',
 		},
 		{
